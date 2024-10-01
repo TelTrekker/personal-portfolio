@@ -1,14 +1,451 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/personal-portfolio/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/personal-portfolio/assets/index-FduvDmUr.js"></script>
-    <link rel="stylesheet" crossorigin href="/personal-portfolio/assets/index-DiwrgTda.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jony</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="/personal-portfolio/assets/favicon-Mp0L1Jg2.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  <link rel="stylesheet" crossorigin href="/personal-portfolio/assets/index-DQrbH7Dl.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid ">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAnCAYAAABzAXTXAAAABHNCSVQICAgIfAhkiAAABJBJREFUaEPtmb9PFEEUx9/bg1I6LTQxMXIn2osFdFJp1Kh/gOBe7kgshNZGLK3A2HiXW0ETSzVRExvt/JFAYwfcYWyEQjsp4faZ2b09Z2ffzO3hQEIyV97Or/3O5/1cBPezpgBaW8ktBE5MixA4MZ2YFhWwuJQj04lpUQGLSzkynZgWFbC4VG4yN+r+AgHelfcuVhrG+Rs1/1aIeA2ALiDgcTGXgLaBYBkB3xWrjQXTu6h7irmDVBg9Va2v6eY16+VlBDifPCeAlVKlMdp6OnWUdr3vCHik+4xovVQNRkxnyK5H2zgQni7eXvytztsXMTca/lgY4rz8UtyBCWgLQ5guTgdvuefcBRLRx1I1mOhXTDGeWw9Cuqrbv/XEvwIevpH3QqBHw5VghtvfupixkPBeJqCnJRHMcpSyLy8WMwigI1NMY+nskMudsVkvv0KA6/8o11MpxlgVkztsx7S3AHAzOhTRECKeyZiIR+PD5eCz/L9OTEF0qRKc0AjAmnkylltzgLyzquv4UauM7GK4mpdK62KqNxlvkDWL2JfC417+S0umZl2xn4lMA52vS5XGDVm4Zt1fRMDJvFRaFVNQCbuFX/KBCCBzyOR5q1aeA4T7KboU8zWJKYIRFwh6ian1nQPtY0lQ4SzM5CuTd7Bm5pw4nPkot7+ZRPnYHaTFN4nJjc9Dpo5OWSwui9BF8LQb6Bkd4gG9UqNmzf+AiBe7ZpEr7ciYUsoXsi8lpTbRXgrNecjk3keQXqoEQ/GF+KlLzkOlVTNv1vw1ObCYTFwy9RlAmJfvU85ds2LCCgD8TEVY5dLyiskGS4LZ6CzSmXTuhGPQnpnXy5RGXp+PdcVk8jiZNE5MHGhfVpNvIHhQrDbm8pp5sj9D/hYQbMtQ5KXSKpmtAxIzqmaU4CXTk5dMne9MB1BzXqnSeejIFGJyfi1xK/2IqY3sHZX6ofLQkhlRxZV6Ho2rZWxSm+virKHQ0NbgurWskbnHAJTJNXsFoITMiE41g4AoQImyLtPoMCUtXKbSL5VWyTyY1CjuACXCiJJvB9uiA9XtBKmi9SJTR7mp/teSKcwFPejmh2Ig1xXhIp9cHx9E0s4JkyOxT10AJwTnMvYkpqiTCXFJ3oSrXDiTkilhy0lDu4wTH4kmh6vBM33qkiYzGacm2emIzM+Rx9gTs+GPUYifTDmiaKupYwhoqVQJpuR5/9XoYDpBXJ4pX2BXdAaI5JltMxeupY3tabF+gQpP5G5TFIDU4CH+E4fwgL6EgCcBaEL1Sxy9ncj4Ta6347VIJMOrgPgHiM5xLTjOrPKKGadK6Q77foipRn618x+JyWJuCn+aZq6Ysp/NYRNlXP8xgYKjeS9m3qqVM+WvXH11UyOux8jqaRAyHWXD53k+W3gE92Q/Ke/ZD5nRRTLfqWyaOefuZD+fyjOjILJTuEMIl1K5GtE6IHwdpMJD08csVXxBPHk4pfugBoPtF9yHqX4DUDKeczM2xYzdib8IADc7e76U40bupN1k9e5ZrIAT0yIJTkwnpkUFLC7lyHRiWlTA4lKOTCemRQUsLvUXa0QlZL2oSioAAAAASUVORK5CYII=" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="Works.html">Works</a></li>
+                                            <li><a href="Services.html">Services</a></li>
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                        <li><a href="works_details.html">work details</a></li>
+                                                        <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">about</a></li>
+                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#">Let’s Talk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                    <div class="col-lg-9">
+                        <div class="slider_text">
+                            <h3>Hi there, I am Jony <br>
+                                <span>Creative Director</span></h3>
+                        <a class="boxed-btn3-line" href="#">View Works</a>
+                        </div>
+                    </div>
+                    <div class="my_img d-none d-lg-block">
+                        <img src="/personal-portfolio/assets/my_img-mMh2KyUX.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <div class="download_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+                    <div class="download_text">
+                        <h3>I’m a Creative director based on New York, who loves clean, simple & unique design. I also enjoy crafting </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="download_left">
+                        <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.
+                        </p>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget </p>
+                        <a href="#" class="boxed-btn3-line">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6">
+                    <div class="progress_skills">
+                        <div class="single_progress">
+                            <div class="label d-flex justify-content-between">
+                                <span>Wireframing</span>
+                                <span>90%</span>
+                            </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>UI/UX</span>
+                                        <span>70%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>Interaction design</span>
+                                        <span>45%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service_area start  -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='62.246'%20height='62.246'%20viewBox='0%200%2062.246%2062.246'%3e%3cg%20id='https:_www.flaticon.com_free-icon_design_115806_term_web_20design_page_1_position_48'%20data-name='https://www.flaticon.com/free-icon/design_115806%23term=web%2520design&amp;page=1&amp;position=48'%20opacity='0.6'%3e%3cpath%20id='Path_2'%20data-name='Path%202'%20d='M57.28,15.231a.993.993,0,0,0,.993-.993v-4.3h2.98a.993.993,0,0,0,.993-.993V.993A.993.993,0,0,0,61.253,0H53.306a.993.993,0,0,0-.993.993v2.98H9.933V.993A.993.993,0,0,0,8.94,0H.993A.993.993,0,0,0,0,.993V8.94a.993.993,0,0,0,.993.993h2.98v42.38H.993A.993.993,0,0,0,0,53.306v7.946a.993.993,0,0,0,.993.993H8.94a.993.993,0,0,0,.993-.993v-2.98h42.38v2.98a.993.993,0,0,0,.993.993h7.946a.993.993,0,0,0,.993-.993V53.306a.993.993,0,0,0-.993-.993h-2.98v-34.1a.993.993,0,0,0-1.987,0v34.1h-2.98a.993.993,0,0,0-.993.993v2.98H9.933v-2.98a.993.993,0,0,0-.993-.993H5.96V9.933H8.94a.993.993,0,0,0,.993-.993V5.96h42.38V8.94a.993.993,0,0,0,.993.993h2.98v4.3A.993.993,0,0,0,57.28,15.231ZM54.3,54.3h5.96v5.96H54.3ZM7.946,60.26H1.987V54.3h5.96Zm0-52.313H1.987V1.987h5.96ZM54.3,1.987h5.96v5.96H54.3Z'%20fill='%23fff'/%3e%3cpath%20id='Path_3'%20data-name='Path%203'%20d='M135.758,101a.993.993,0,0,0-.993-.993H100.993A.993.993,0,0,0,100,101v16.885a.993.993,0,0,0,.993.993h33.772a.993.993,0,0,0,.993-.993Zm-33.772,1.607,13.671,6.835-13.671,6.835Zm3.214-.614h25.356l-12.678,6.339Zm12.678,8.56,12.678,6.339H105.2Zm2.221-1.11,13.671-6.835v13.671Z'%20transform='translate(-86.756%20-86.76)'%20fill='%23fff'/%3e%3cpath%20id='Path_4'%20data-name='Path%204'%20d='M115.893,355h-14.9a.993.993,0,0,0,0,1.987h14.9a.993.993,0,1,0,0-1.987Z'%20transform='translate(-86.756%20-307.984)'%20fill='%23fff'/%3e%3cpath%20id='Path_5'%20data-name='Path%205'%20d='M258.393,355h-14.9a.993.993,0,1,0,0,1.987h14.9a.993.993,0,0,0,0-1.987Z'%20transform='translate(-210.384%20-307.984)'%20fill='%23fff'/%3e%3cpath%20id='Path_6'%20data-name='Path%206'%20d='M115.893,323.125h-14.9a.993.993,0,0,0,0,1.987h14.9a.993.993,0,1,0,0-1.987Z'%20transform='translate(-86.756%20-280.331)'%20fill='%23fff'/%3e%3cpath%20id='Path_7'%20data-name='Path%207'%20d='M258.393,323.125h-14.9a.993.993,0,1,0,0,1.987h14.9a.993.993,0,0,0,0-1.987Z'%20transform='translate(-210.384%20-280.331)'%20fill='%23fff'/%3e%3cpath%20id='Path_8'%20data-name='Path%208'%20d='M115.893,291.25h-14.9a.993.993,0,0,0,0,1.987h14.9a.993.993,0,1,0,0-1.987Z'%20transform='translate(-86.756%20-252.677)'%20fill='%23fff'/%3e%3cpath%20id='Path_9'%20data-name='Path%209'%20d='M258.393,291.25h-14.9a.993.993,0,1,0,0,1.987h14.9a.993.993,0,0,0,0-1.987Z'%20transform='translate(-210.384%20-252.677)'%20fill='%23fff'/%3e%3cpath%20id='Path_10'%20data-name='Path%2010'%20d='M134.765,259.374H100.993a.993.993,0,0,0,0,1.987h33.772a.993.993,0,0,0,0-1.987Z'%20transform='translate(-86.756%20-225.023)'%20fill='%23fff'/%3e%3c/g%3e%3c/svg%3e" alt="">
+                        </div>
+                        <h3>
+                                Web & Mobile Design
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="/personal-portfolio/assets/2-BvP2q0Q2.svg" alt="">
+                        </div>
+                        <h3>
+                                Web Development
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='69.262'%20height='62.336'%20viewBox='0%200%2069.262%2062.336'%3e%3cg%20id='https:_www.flaticon.com_free-icon_online-shop_813896_term_ecommerce_page_1_position_41'%20data-name='https://www.flaticon.com/free-icon/online-shop_813896%23term=ecommerce&amp;page=1&amp;position=41'%20transform='translate(0%20-24)'%20opacity='0.6'%3e%3cg%20id='Group_2'%20data-name='Group%202'%20transform='translate(0%2024)'%3e%3cg%20id='Group_1'%20data-name='Group%201'%20transform='translate(0%200)'%3e%3cpath%20id='Path_17'%20data-name='Path%2017'%20d='M65.8,24H3.463A3.463,3.463,0,0,0,0,27.463V71.329a3.463,3.463,0,0,0,3.463,3.463h26.55v4.617H20.779a3.463,3.463,0,0,0-3.463,3.463v2.309a1.154,1.154,0,0,0,1.154,1.154H50.792a1.154,1.154,0,0,0,1.154-1.154V82.872a3.463,3.463,0,0,0-3.463-3.463H40.4V74.792H65.8a3.463,3.463,0,0,0,3.463-3.463V27.463A3.463,3.463,0,0,0,65.8,24ZM48.483,81.718a1.154,1.154,0,0,1,1.154,1.154v1.154H19.624V82.872a1.154,1.154,0,0,1,1.154-1.154ZM32.322,79.409V74.792h5.772v4.617Zm34.631-8.081A1.154,1.154,0,0,1,65.8,72.483H3.463a1.154,1.154,0,0,1-1.154-1.154V67.866H66.953Zm0-5.772H2.309V33.331H66.953Zm0-34.535H2.309V27.463a1.154,1.154,0,0,1,1.154-1.154H65.8a1.154,1.154,0,0,1,1.154,1.154Z'%20transform='translate(0%20-24)'%20fill='%23fff'/%3e%3cpath%20id='Path_18'%20data-name='Path%2018'%20d='M33.154,106.309h2.562l3.232,15.238a1.154,1.154,0,0,0,1.132.923H53.933a1.154,1.154,0,0,0,1.131-.923L57.373,110a1.155,1.155,0,0,0-1.131-1.385H38.672l-.935-3.742a1.154,1.154,0,0,0-1.12-.875H33.154a1.154,1.154,0,1,0,0,2.309Zm21.679,4.617-1.846,9.235H41.026l-1.847-9.235Z'%20transform='translate(-27.383%20-92.456)'%20fill='%23fff'/%3e%3cpath%20id='Path_19'%20data-name='Path%2019'%20d='M83.463,240a3.463,3.463,0,1,0,3.463,3.463A3.463,3.463,0,0,0,83.463,240Zm0,4.617a1.154,1.154,0,1,1,1.154-1.154A1.154,1.154,0,0,1,83.463,244.617Z'%20transform='translate(-68.456%20-208.832)'%20fill='%23fff'/%3e%3cpath%20id='Path_20'%20data-name='Path%2020'%20d='M155.463,240a3.463,3.463,0,1,0,3.463,3.463A3.463,3.463,0,0,0,155.463,240Zm0,4.617a1.154,1.154,0,1,1,1.154-1.154A1.154,1.154,0,0,1,155.463,244.617Z'%20transform='translate(-130.067%20-208.832)'%20fill='%23fff'/%3e%3cpath%20id='Path_21'%20data-name='Path%2021'%20d='M241.154,130.309h20.779a1.154,1.154,0,1,0,0-2.309H241.154a1.154,1.154,0,1,0,0,2.309Z'%20transform='translate(-205.369%20-112.993)'%20fill='%23fff'/%3e%3cpath%20id='Path_22'%20data-name='Path%2022'%20d='M417.154,130.309h2.309a1.154,1.154,0,1,0,0-2.309h-2.309a1.154,1.154,0,1,0,0,2.309Z'%20transform='translate(-355.973%20-112.993)'%20fill='%23fff'/%3e%3cpath%20id='Path_23'%20data-name='Path%2023'%20d='M241.154,162.309h20.779a1.154,1.154,0,1,0,0-2.309H241.154a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-205.369%20-140.376)'%20fill='%23fff'/%3e%3cpath%20id='Path_24'%20data-name='Path%2024'%20d='M417.154,162.309h2.309a1.154,1.154,0,0,0,0-2.309h-2.309a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-355.973%20-140.376)'%20fill='%23fff'/%3e%3cpath%20id='Path_25'%20data-name='Path%2025'%20d='M241.154,194.309h20.779a1.154,1.154,0,1,0,0-2.309H241.154a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-205.369%20-167.758)'%20fill='%23fff'/%3e%3cpath%20id='Path_26'%20data-name='Path%2026'%20d='M417.154,194.309h2.309a1.154,1.154,0,0,0,0-2.309h-2.309a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-355.973%20-167.758)'%20fill='%23fff'/%3e%3cpath%20id='Path_27'%20data-name='Path%2027'%20d='M241.154,226.309h20.779a1.154,1.154,0,1,0,0-2.309H241.154a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-205.369%20-195.141)'%20fill='%23fff'/%3e%3cpath%20id='Path_28'%20data-name='Path%2028'%20d='M417.154,226.309h2.309a1.154,1.154,0,0,0,0-2.309h-2.309a1.154,1.154,0,0,0,0,2.309Z'%20transform='translate(-355.973%20-195.141)'%20fill='%23fff'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="">
+                        </div>
+                        <h3>
+                                E-commerce
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service_area end  -->
+
+    <!-- gallery_area start  -->
+    <div class="gallery_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>My Works</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="/personal-portfolio/assets/1-BM6tZg01.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="/personal-portfolio/assets/2-DtcG1EaH.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="/personal-portfolio/assets/3-DfpMcgjb.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="/personal-portfolio/assets/4-r81nJ2GJ.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="more_works">
+                                    <a class="boxed-btn3-line" href="#">More Works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery_area end  -->
+
+        <!-- testimonial_area  -->
+        <div class="testimonial_area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title">
+                            <h3>What Clients say</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="/personal-portfolio/assets/testmonial-BMHJRPjv.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="/personal-portfolio/assets/testmonial-BMHJRPjv.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="/personal-portfolio/assets/testmonial-BMHJRPjv.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /testimonial_area  -->
+    
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="lets_talk">
+                            <h3>Do you have any Project? <a href="#">Let’s Talk</a> </h3>
+                            <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Behance</span>
+                            <a href="#"> <i class="fa fa-behance"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Dribbble</span>
+                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Medium</span>
+                            <a href="#"> <i class="fa fa-medium"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Linkedin</span>
+                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- link that opens popup -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- <script src="js/gijgo.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
